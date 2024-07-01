@@ -1,4 +1,3 @@
-import Image from "next/image";
 import BasicsOfFM from "./_components/basicsOfFM";
 import Gestures from "./_components/gestures";
 import AnimationControl from "./_components/animationControl";
@@ -8,11 +7,13 @@ import ScrollBasedAnimation from "./_components/scrollBasedAnimation";
 export default function Home() {
   return (
     <>
+        {/* Framer moition crash course ------------ */}
         {/* <BasicsOfFM/> */}
         {/* <Gestures/> */}
         {/* <AnimationControl/> */}
         {/* <ViewBasedAnimation/> */}
-        <ScrollBasedAnimation/>
+        {/* <ScrollBasedAnimation/> */}
+
     </>
   );
 }
